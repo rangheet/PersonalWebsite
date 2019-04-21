@@ -22,7 +22,7 @@ class Extracurricular extends Component{
         let extracurricular=this.props.extracurricular.extracurricular;
         return (
             <div className="extracurricularWrapperDiv">
-                <Typography variant="h4" color="inherit">
+                <Typography variant="h4" color="inherit" className="sectionHeader">
                     Extracurriculars:
                 </Typography>
                 {extracurricular.map((activity,index) =>      
@@ -37,7 +37,7 @@ class Extracurricular extends Component{
                                         <i className="material-icons">person</i>
                                     </Grid>
                                     <Grid item>
-                                        <Typography variant="subtitle1" color="inherit">
+                                        <Typography variant="subtitle1" color="inherit" className="secondHeading">
                                             {activity.position}
                                         </Typography>
                                     </Grid>

@@ -25,7 +25,7 @@ class Experiences extends Component{
         return (
             <Fragment>
                 <div id="Experiences" className="experiencesWrapperDiv" >
-                        <Typography variant="h4" color="inherit" align="left">
+                        <Typography variant="h4" color="inherit" align="left" className="sectionHeader">
                                 Experiences:
                         </Typography>
                         {experiences.map((experience,index) => {
@@ -41,7 +41,7 @@ class Experiences extends Component{
                                                             {experience.companyName}
                                                             <a href={experience.companyLogo.url} target="_blank" ref="noopener" className="linkIcon"><i className="material-icons">link</i></a>
                                                         </Typography>
-                                                        <Typography variant="subtitle1" color="inherit" align="left">
+                                                        <Typography variant="subtitle1" color="inherit" align="left" className="secondHeading">
                                                             {experience.position}
                                                         </Typography>
                                                         <Typography variant="body1" color="inherit" align="left">

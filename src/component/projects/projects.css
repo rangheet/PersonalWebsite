@@ -3,7 +3,8 @@
     overflow: hidden;
     position: relative;
     top: 3vh;
-    left: 1vh;
+    left: 1%;
+    padding-bottom: 5vh;
 }
 
 .projectDescription{

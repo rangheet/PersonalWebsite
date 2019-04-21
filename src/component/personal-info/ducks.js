@@ -23,7 +23,7 @@ export const actions = {
     updatePersonalInfoAction(payload){
         return {
             type: actionType.UPDATE_PERSONALINFO,
-            payload: payload
+            payload
         };
     }
 };
@@ -32,9 +32,6 @@ export function personalInfoReducer(state=InitialState, action){
 
     switch(action.type)
     {
-        case actionType.READ_PERSONALINFO:
-            return {...state};
-
         case actionType.UPDATE_PERSONALINFO:
             return {
                 ...state,
