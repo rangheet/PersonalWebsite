@@ -4,6 +4,8 @@
     top: 6vh;
     left: 1.5vh;
     min-height: 20vh;
+    overflow: hidden;
+    padding-bottom: 10vh;
 }
 
 .skillBar{
@@ -17,8 +19,9 @@
     padding-bottom: 25px;
     margin-top: 16px;
     width: 50%;
-    border: 4px black solid;
+    border: 1px #c0c0c0 solid;
     background: white;
+    margin-left: 15px;
 }
 
 .linearProgressBar{

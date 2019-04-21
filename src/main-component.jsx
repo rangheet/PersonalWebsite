@@ -18,16 +18,16 @@ class MainComponent extends Component{
         <PersonalInfo/>
         <Logos/>
         <Electives/>
-        <div className="sectionDivider"/>
+        {/* <div className="sectionDivider"/> */}
         <Experiences/>
-        <div className="sectionDivider"/>
+        {/* <div className="sectionDivider"/> */}
         <Education/>
-        <div className="sectionDivider"/>
-        <div className="ProjectsSkillsWrapper">
+        {/* <div className="sectionDivider"/> */}
+        {/* <div className="ProjectsSkillsWrapper"> */}
           <Projects/>
           <Skills/>
-        </div>
-        <div className="sectionDivider"/>
+        {/* </div> */}
+        {/* <div className="sectionDivider"/> */}
         <Extracurricular/>
       </div>
     );

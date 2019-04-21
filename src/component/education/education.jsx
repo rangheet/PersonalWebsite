@@ -22,7 +22,7 @@ class Education extends Component{
         let education=this.props.education.education;
         return (
             <div className="educationWrapper">
-                    <Typography variant="h4" color="inherit" align="left">
+                    <Typography variant="h4" color="inherit" align="left" className="sectionHeader">
                         Education:
                     </Typography>
                     {education.map((institute,index) => <Paper key={index} square className="commonPaper" elevation={0}>
@@ -35,7 +35,7 @@ class Education extends Component{
                                                                         {institute.instituteName}
                                                                         <a href={institute.instituteLogo.url} target="_blank" ref="noopener" className="linkIcon"><i className="material-icons">link</i></a>
                                                                     </Typography>
-                                                                    <Typography variant="subtitle1" color="inherit">
+                                                                    <Typography variant="subtitle1" color="inherit" className="secondHeading">
                                                                         {institute.degree}
                                                                     </Typography>
                                                                     <Typography variant="button" color="inherit" align="left">
