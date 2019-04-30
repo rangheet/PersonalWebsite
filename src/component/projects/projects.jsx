@@ -38,7 +38,7 @@ class Projects extends Component{
 
         return (
             <div className="projectsWrapperDiv">
-                <Typography variant="h4" color="inherit" align="left">
+                <Typography variant="h4" color="inherit" align="left" className="sectionHeader">
                             Projects:
                 </Typography>
 
@@ -60,7 +60,7 @@ class Projects extends Component{
                                         <i className="material-icons">school</i>
                                     </Grid>
                                     <Grid item>
-                                        <Typography variant="subtitle1" color="inherit" className="projectCompany">
+                                        <Typography variant="subtitle1" color="inherit" className="projectCompany secondHeading">
                                             {project.company}
                                         </Typography>
                                     </Grid>

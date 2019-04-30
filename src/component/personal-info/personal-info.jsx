@@ -1,4 +1,4 @@
-import React, { Component} from "react";
+import React, { Component } from "react";
 import { actions } from "./ducks";
 import { connect } from "react-redux";
 import "./personal-info.css";
@@ -46,7 +46,7 @@ class PersonalInfo extends Component{
                 <Grid container justify="center" className="headerButtonContainer" direction="column" alignItems="center">
                     <Grid item>
                         <Typography variant="h3" color="inherit" align="center">
-                                Heet Dave
+                                {this.props.personalInfo.name}
                         </Typography>
                         {/* <Typography variant="h1" color="inherit" align="center" >
                             {this.props.personalInfo.name.toUpperCase()}
