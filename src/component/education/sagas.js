@@ -27,7 +27,7 @@ function* getEducation(){
                   "instituteLogo": {
                     "url": "https://www.asu.edu/",
                     "logoname": "ASU",
-                    "filenameOnServer": "asu-logo.png"
+                    "filenameOnServer": "asu_logo.png"
                   },
                   "instituteAbbr": "ASU",
                   "degree": "Master of Science in Computer Science"
