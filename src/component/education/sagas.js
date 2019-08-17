@@ -17,6 +17,22 @@ function* getEducation(){
         {
             education = [
                 {
+                  "state": "AZ",
+                  "country": "United States",
+                  "cgpa": "N/A",
+                  "instituteName": "Arizona State University",
+                  "startYear": 2019,
+                  "endYear": 2021,
+                  "city": "Tempe",
+                  "instituteLogo": {
+                    "url": "https://www.asu.edu/",
+                    "logoname": "ASU",
+                    "filenameOnServer": "asu-logo.png"
+                  },
+                  "instituteAbbr": "ASU",
+                  "degree": "Master of Science in Computer Science"
+                },
+                {
                   "state": "Gujarat",
                   "country": "India",
                   "cgpa": 7.06,

@@ -17,6 +17,16 @@ function* getElectives(){
         {
             electives = [
                 {
+                  "name": "Multimedia and Web Databases",
+                  "courseCode": "CSE515",
+                  "institute": "ASU"
+                },
+                {
+                  "name": "Mobile Computing",
+                  "courseCode": "CSE535",
+                  "institute": "ASU"
+                },
+                {
                   "name": "Data Structures",
                   "courseCode": "IT205",
                   "institute": "DA-IICT"
