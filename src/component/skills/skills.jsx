@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { LinearProgress, Tabs, Tab, Typography } from "@material-ui/core";
 import "./skills.css";
 
-const tabs = Object.freeze({Language: 0, WebTech: 1, PM: 2, DevOpsTools: 3});
+const tabs = Object.freeze({Language: 0, WebTech: 1, DevOpsTools: 2, PM: 3});
 
 class Skills extends Component{
 
@@ -57,8 +57,8 @@ class Skills extends Component{
                     <Tabs value={this.state.skillTabs} onChange={this.handleChange}>
                         <Tab label="Languages" style={{outline: "none"}}/>
                         <Tab label="Web Technologies" style={{outline: "none"}}/>
-                        <Tab label="Project Managament" style={{outline: "none"}}/>
                         <Tab label="DevOps Tools" style={{outline: "none"}}/>
+                        <Tab label="Other Tools" style={{outline: "none"}}/>
                     </Tabs>
                     <div className="skillsBarOuterDiv">
                        {skills.map((skill,index) => <div key={index.toString()} className="skillBar"> 

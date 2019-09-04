@@ -2,7 +2,8 @@
 const initialState = {
     LinkedIn: {},
     Github: {},
-    Email: {}
+    Email: {},
+    GithubBlack: {}
 };
 
 export const actionType = {
@@ -32,7 +33,8 @@ export function logosReducer(state = initialState, action){
                 ...state,
                 LinkedIn: action.payload.LinkedIn,
                 Github: action.payload.Github,
-                Email: action.payload.Email
+                Email: action.payload.Email,
+                GithubBlack: action.payload.GithubBlack
             };
         default:
             return state;
