@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import {Tabs,Tab,Paper,Grid,Chip,Typography} from '@material-ui/core';
 import "../../main-component.css";
 import "./projects.css";
-
+import { config } from "../../config";
 let tab = Object.freeze({Academic: 0, Personal: 1});
 class Projects extends Component{
 
@@ -53,7 +53,9 @@ class Projects extends Component{
                         <Paper square className="commonPaper" elevation={0} >
                             <Typography variant="h5" color="inherit" align="left">
                                 {project.title}
-                            </Typography>
+                                {project.repoURL && <a href={project.repoURL} target="_blank" ref="noopener" className="linkIcon"><img className="projectGithubIcon" src={this.props.logos.GithubBlack.filenameOnServer ? config.StaticDataLoadingEndPoint+this.props.logos.GithubBlack.filenameOnServer : undefined} alt={this.props.logos.GithubBlack.logoname} /></a>}
+                                {project.liveProjectURL && <a href={project.liveProjectURL} target="_blank" ref="noopener" className="linkIcon"><i className="material-icons">language</i></a>}
+                            </Typography>                    
                             {this.state.projectTab===tab.Academic && 
                                 <Grid container direction="row">
                                     <Grid item>
@@ -87,7 +89,10 @@ class Projects extends Component{
 
 function mapStateToProps(state)
 {
-    return { projects: state.projects }; 
+    return { 
+        projects: state.projects,
+        logos: state.logos 
+    }; 
 }
 
 function mapDispatchToProps(dispatch)
