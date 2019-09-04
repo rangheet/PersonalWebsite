@@ -21,33 +21,13 @@ function* getSkills(){
                   "category": "Language"
                 },
                 {
-                  "ratingOutOf10": 8,
-                  "name": "C#",
-                  "category": "Language"
-                },
-                {
-                  "ratingOutOf10": 10,
-                  "name": "JIRA",
-                  "category": "PM"
-                },
-                {
-                  "ratingOutOf10": 9,
-                  "name": "ASP.NET WebAPI",
-                  "category": "WebTech"
-                },
-                {
-                  "ratingOutOf10": 9,
-                  "name": "ReactJS",
-                  "category": "WebTech"
-                },
-                {
-                  "ratingOutOf10": 10,
-                  "name": "C",
-                  "category": "Language"
-                },
-                {
                   "ratingOutOf10": 9,
                   "name": "Java",
+                  "category": "Language"
+                },                
+                {
+                  "ratingOutOf10": 9,
+                  "name": "Python",
                   "category": "Language"
                 },
                 {
@@ -56,19 +36,48 @@ function* getSkills(){
                   "category": "Language"
                 },
                 {
-                  "ratingOutOf10": 8,
-                  "name": "Python",
+                  "ratingOutOf10": 10,
+                  "name": "C",
                   "category": "Language"
+                },
+                {
+                  "ratingOutOf10": 8,
+                  "name": "C#",
+                  "category": "Language"
+                },
+                {
+                  "ratingOutOf10": 9,
+                  "name": "SQL",
+                  "category": "Language"
+                },
+
+
+
+
+                {
+                  "ratingOutOf10": 10,
+                  "name": "ReactJS",
+                  "category": "WebTech"
                 },
                 {
                   "ratingOutOf10": 10,
-                  "name": "HTML",
-                  "category": "Language"
+                  "name": "Redux",
+                  "category": "WebTech"
                 },
                 {
-                  "ratingOutOf10": 8,
-                  "name": "SQL",
-                  "category": "Language"
+                  "ratingOutOf10": 9,
+                  "name": "Redux-Saga",
+                  "category": "WebTech"
+                },
+                {
+                  "ratingOutOf10": 9,
+                  "name": "jQuery",
+                  "category": "WebTech"
+                },
+                {
+                  "ratingOutOf10": 10,
+                  "name": "AJAX",
+                  "category": "WebTech"
                 },
                 {
                   "ratingOutOf10": 8,
@@ -77,9 +86,33 @@ function* getSkills(){
                 },
                 {
                   "ratingOutOf10": 9,
-                  "name": "Amazon S3",
+                  "name": "ASP.NET WebAPI",
+                  "category": "WebTech"
+                },               
+                {
+                  "ratingOutOf10": 9,
+                  "name": "AWS S3",
                   "category": "WebTech"
                 },
+                {
+                  "ratingOutOf10": 9,
+                  "name": "AWS EC2",
+                  "category": "WebTech"
+                },
+                                
+                {
+                  "ratingOutOf10": 10,
+                  "name": "HTML",
+                  "category": "WebTech"
+                },
+                {
+                  "ratingOutOf10": 9,
+                  "name": "CSS",
+                  "category": "WebTech"
+                },
+                
+                
+                
                 {
                   "ratingOutOf10": 8,
                   "name": "Docker",
@@ -90,15 +123,16 @@ function* getSkills(){
                   "name": "Jenkins",
                   "category": "DevOpsTools"
                 },
+                
+                
+
+
+
+
                 {
                   "ratingOutOf10": 10,
-                  "name": "AJAX",
-                  "category": "WebTech"
-                },
-                {
-                  "ratingOutOf10": 9,
-                  "name": "jQuery",
-                  "category": "WebTech"
+                  "name": "JIRA",
+                  "category": "PM"
                 },
                 {
                   "ratingOutOf10": 9,
@@ -107,7 +141,7 @@ function* getSkills(){
                 },
                 {
                   "ratingOutOf10": 10,
-                  "name": "Scrum (Agile)",
+                  "name": "Scrum",
                   "category": "PM"
                 }
               ];

@@ -49,8 +49,7 @@ function* getProjects(){
                     " Created queries and stored procedures to manipulate and view data and different kinds of relations between entities."
                   ],
                   "technologies": [
-                    "Neural Network",
-                    "MATLAB"
+                    "PostgreSQL"
                   ]
                 },
                 // {
