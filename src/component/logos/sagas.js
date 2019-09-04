@@ -31,6 +31,11 @@ function* getLogos(){
                   "url": "https://github.com/rangheet",
                   "logoname": "Github",
                   "filenameOnServer": "github-logo-white.png"
+                },
+                "GithubBlack": { 
+                  "url": "https://github.com/rangheet", 
+                  "logoname": "GithubBlack", 
+                  "filenameOnServer": "github-logo-black.png" 
                 }
               };
         }

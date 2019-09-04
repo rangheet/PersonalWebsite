@@ -75,6 +75,8 @@ function* getProjects(){
                     "Designed and implemented web application for creating portfolios which also has facility to host them as your own website.",
                     "Developed front-end using Javascript, ReactJS, Redux, Redux-Saga and Material-UI. Back-end was developed using Java SpringBoot. Used MySQL to store website and user data."
                   ],
+                  "repoURL": "https://github.com/rangheet/easy-website",
+                  "liveProjectURL": "http://bit.ly/easywebsite1",
                   "technologies": [
                     "ReactJS",
                     "SprintBoot",
