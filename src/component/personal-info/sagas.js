@@ -17,7 +17,11 @@ function* getPersonalInfo()
         if(personalInfo==="Error!")
         {
             personalInfo = {
-                bio: "I am currently working at Endurance International Group as a Software Engineer. I am working on developing our new product using ReactJS and Java SpringBoot. I have experience with working on both front-end and back-end as well as CI/CD tools such as Docker and Jenkins. I did my undergraduate studies from DA-IICT, Gujarat. I have also worked in fields Information Retrieval, Machine Learning and Natural Language Processing during my internship at Indian Space Research Organization (ISRO).",
+                bio: "Hi! This is Heet from 221B Baker Street. I am currently pursuing Master of Science in Computer Science at Arizona State University."
+                + " I've worked in various domains throughout my undergrad and the past year as a Software Engineer. I'm familiar with"
+                + " various technologies, programming languages and frameworks and I'm always trying to learn more aout them in my leisure."
+                + " I find learning new technologies very intriguing. It's like climbing a mountain and enjoying the view from summit after all the hardwork."
+                + " I'm also into books, games and music. Feel free to contact me via Email or LinkedIn.", 
                 company: "Endurance International Group",
                 dateOfBirth: "856377000000",
                 name: "Heet Dave",

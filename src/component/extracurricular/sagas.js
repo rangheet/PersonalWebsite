@@ -19,9 +19,9 @@ function* getExtracurricular(){
                 {
                   "state": "Gujarat",
                   "country": "India",
-                  "organization": "Synapse, DA-IICT",
+                  "organization": "Annual Festival Committee, DA-IICT",
                   "timeOfActivity": "Apr 2016 - Mar 2017",
-                  "workDescription": "Played a key role in sponsorship, marketing and event management of Annual Festival. Dealt with various companies regarding sponsorship and marketing. As a team managed to get $70,000 for the fest.",
+                  "workDescription": "Played a key role in sponsorship, marketing and event managemen. Dealt with various companies regarding sponsorship and marketing.",
                   "position": "Core Committee Member"
                 },
                 {

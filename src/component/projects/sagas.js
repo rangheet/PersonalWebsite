@@ -17,25 +17,10 @@ function* getProjects(){
             projects = [
                 {
                   "company": "DA-IICT",
-                  "title": "Alzheimer disease detection using Neural Network",
+                  "title": "News articles classifier",
                   "projectType": "Academic",
                   "projectDescription": [
-                    "Developed Neural Network to detect Alzheimer from MRI of a brain",
-                    "Used both Multilayer Perceptron (MLP) and Radial Basis Function (RBF) to detect the disease"
-                  ],
-                  "technologies": [
-                    "Neural Network",
-                    "MATLAB"
-                  ]
-                },
-                {
-                  "company": "DA-IICT",
-                  "title": "Topic wise classification of news articles",
-                  "projectType": "Academic",
-                  "projectDescription": [
-                    "Developed Naive Bayes classifier to categorize news articles according to topics",
-                    "Used various NLP and Information Retrieval techniques such as Bag of Words model, normalization, Porter stemming algorithm, stopwords removal and Laplace smoothing for categorization",
-                    "Achieved 0.78 F1 score with 20 Newsgroup dataset"
+                    "Made Naive Bayes classifier to categorize news articles using Python, NLTK library and various NLP techniques achieving 0.78 F1 Score."
                   ],
                   "technologies": [
                     "Python",
@@ -45,25 +30,50 @@ function* getProjects(){
                 },
                 {
                   "company": "DA-IICT",
-                  "title": "Dynamic traffic signal timer using OpenCV",
+                  "title": "Alzheimer disease detector",
                   "projectType": "Academic",
                   "projectDescription": [
-                    "Developed a system which sets traffic signal timer dynamically according to the traffic in the lane",
-                    "Used Image Processing technique like background subtraction and blob detection to detect traffic density"
+                    "Developed Naural Network based classifier given MRI images dataset to detect Alzheimer’s Disease achieving 70% accuracy"
                   ],
                   "technologies": [
-                    "Python",
-                    "Internet of Things",
-                    "OpenCV"
+                    "Neural Network",
+                    "MATLAB"
                   ]
                 },
                 {
+                  "company": "DA-IICT",
+                  "title": "Election Database Management System",
+                  "projectType": "Academic",
+                  "projectDescription": [
+                    "Designed and created database using PostgreSQL for election considering entities like voters, candidates, constituencies, political parties."+
+                    " Created queries and stored procedures to manipulate and view data and different kinds of relations between entities."
+                  ],
+                  "technologies": [
+                    "Neural Network",
+                    "MATLAB"
+                  ]
+                },
+                // {
+                //   "company": "DA-IICT",
+                //   "title": "Dynamic traffic signal timer using OpenCV",
+                //   "projectType": "Academic",
+                //   "projectDescription": [
+                //     "Developed a system which sets traffic signal timer dynamically according to the traffic in the lane",
+                //     "Used Image Processing technique like background subtraction and blob detection to detect traffic density"
+                //   ],
+                //   "technologies": [
+                //     "Python",
+                //     "Internet of Things",
+                //     "OpenCV"
+                //   ]
+                // },
+                {
                   "company": "Sherlock Inc.",
-                  "title": "Personal Website",
+                  "title": "Easy Website",
                   "projectType": "Personal",
                   "projectDescription": [
-                    "Used ReactJS and SpringBoot to develop front-end and back-end respectively. Used redux and redux-saga to for state management and performing async tasks.",
-                    "For design and layout, used Material-UI and CSS"
+                    "Designed and implemented web application for creating portfolios which also has facility to host them as your own website.",
+                    "Developed front-end using Javascript, ReactJS, Redux, Redux-Saga and Material-UI. Back-end was developed using Java SpringBoot. Used MySQL to store website and user data."
                   ],
                   "technologies": [
                     "ReactJS",
@@ -71,7 +81,9 @@ function* getProjects(){
                     "Material-UI",
                     "Javascript",
                     "HTML",
-                    "CSS"
+                    "CSS",
+                    "AWS EC2",
+                    "Nginx"
                   ]
                 }
               ];

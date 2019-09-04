@@ -17,8 +17,13 @@ function* getElectives(){
         {
             electives = [
                 {
-                  "name": "Multimedia and Web Databases",
-                  "courseCode": "CSE515",
+                  "name": "Introduction to Artificial Intelligence",
+                  "courseCode": "CSE471",
+                  "institute": "ASU"
+                },
+                {
+                  "name": "Principles of Programming Languages",
+                  "courseCode": "CSE340",
                   "institute": "ASU"
                 },
                 {
