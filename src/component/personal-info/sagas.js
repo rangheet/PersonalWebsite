@@ -17,11 +17,13 @@ function* getPersonalInfo()
         if(personalInfo==="Error!")
         {
             personalInfo = {
-                bio: "Hi! This is Heet from 221B Baker Street. I am currently pursuing Master of Science in Computer Science at Arizona State University."
-                + " I've worked in various domains throughout my undergrad and the past year as a Software Engineer. I'm familiar with"
-                + " various technologies, programming languages and frameworks and I'm always trying to learn more aout them in my leisure."
-                + " I find learning new technologies very intriguing. It's like climbing a mountain and enjoying the view from summit after all the hardwork."
-                + " I'm also into books, games and music. Feel free to contact me via Email or LinkedIn.", 
+                bio: "Hi! My name is Heet Dave and I am pursuing MS in Computer Science at Arizona State University. I'm currently seeking full-time opportunities starting in May 2021."
+                + " This summer, I was working as a Software Engineering Intern at Apollo Education group in Data Engineering Team."
+                + " I worked on creating data pipelines using Python for data coming from BlackBoard which involved the use of AWS Athena, Glue, DynamoDB, S3 and microservices."
+                + " Apart from this I've also worked as a Front End Engineer and Full Stack Engineer which involved a little bit of DevOps too."
+                + " I consider myself fortunate that I've got to work in different domains in such a short time. This has allowed me to explore different areas of Software Development and beyond."
+                + " I find learning new technologies very intriguing and I still try to learn new things in my leisure."
+                + " I'm also into books, video games, music and twitch. Feel free to contact me via Email or LinkedIn.", 
                 company: "Endurance International Group",
                 dateOfBirth: "856377000000",
                 name: "Heet Dave",
@@ -38,3 +40,4 @@ function* getPersonalInfo()
     }
 
 }
+
