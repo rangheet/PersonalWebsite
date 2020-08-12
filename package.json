@@ -31,6 +31,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build"
   },
   "repository": {
@@ -43,5 +44,5 @@
   "bugs": {
     "url": "https://github.com/rangheet/rangheet.github.io/issues"
   },
-  "homepage": "https://rangheet.github.io"
+  "homepage": "https://rangheet.github.io/"
 }
