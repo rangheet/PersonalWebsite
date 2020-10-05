@@ -17,6 +17,30 @@ function* getExperiences(){
         {
             experiences = [
                 {
+                  "location": "Chandler, AZ",
+                  "startTime": "1600085829000",
+                  "endTime": "",
+                  "position": "Software Engineer Intern",
+                  "companyName": "Intel Corporation",
+                  "mentorName": "Erman Bengu",
+                  "mentorContact": "NA",
+                  "companyLogo": {
+                    "url": "http://intel.com/",
+                    "logoname": "intel",
+                    "filenameOnServer": "intel-icon.png"
+                  },
+                  "technologies": [
+                    "Trend Analysis",
+                    "Python",
+                    "Javascript",
+                    "React"
+                  ],
+                  "workDescription": [
+                    "Perform trend analysis and anomaly detection using Python to reduce defects in chip manufacturing.",
+                    "Create data visualization tools for the data"
+                  ]
+                },
+                {
                   "location": "Phoenix, AZ",
                   "startTime": "1593414060000",
                   "endTime": "1597388460000",
